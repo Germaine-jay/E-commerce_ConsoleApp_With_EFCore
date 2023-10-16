@@ -20,7 +20,7 @@ namespace EFCoreApp.DAL.Data
         public GermaineStoresContext CreateDbContext(string[] args)
         {
             var OptionBuilder = new DbContextOptionsBuilder<GermaineStoresContext>();
-            var ConnectionString = @"Data Source=GERMAINE-PC\SQLEXPRESS;Initial Catalog=GermaineStoresDb;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+            var ConnectionString = @"Data Source=GERMANE-PC\SQLEXPRESS;Initial Catalog=GermaneStoresDb;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
             OptionBuilder.UseSqlServer(ConnectionString);
             return new GermaineStoresContext(OptionBuilder.Options);
         }

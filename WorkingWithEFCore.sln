@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkingWithEFCore", "Workin
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFCoreApp.DAL", "EFCoreApp.DAL\EFCoreApp.DAL.csproj", "{1B1C977C-09F0-4AE6-9F56-64C102CDA675}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GermaineStoreRaz", "GermaineStoreRaz\GermaineStoreRaz.csproj", "{A2FC4C85-C016-4A88-B78D-EF19EDF21EF5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{1B1C977C-09F0-4AE6-9F56-64C102CDA675}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B1C977C-09F0-4AE6-9F56-64C102CDA675}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B1C977C-09F0-4AE6-9F56-64C102CDA675}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2FC4C85-C016-4A88-B78D-EF19EDF21EF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2FC4C85-C016-4A88-B78D-EF19EDF21EF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2FC4C85-C016-4A88-B78D-EF19EDF21EF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2FC4C85-C016-4A88-B78D-EF19EDF21EF5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

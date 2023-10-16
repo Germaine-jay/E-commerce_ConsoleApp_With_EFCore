@@ -172,7 +172,7 @@ public class Program
         }
 
 
-        Console.WriteLine("Fetch All Customers and Orders==========");
+        Console.WriteLine("Fetch All Customers and Orders ==========");
         Console.WriteLine();
         var AllCustomerAndProduct = dbcontext.Customers.OrderBy(u => u.Id).Include(i => i.Orders).ThenInclude(i => i.OrderDetails).ThenInclude(i => i.Product).ToList();
 
